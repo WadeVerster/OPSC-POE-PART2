@@ -1,6 +1,7 @@
 # OPSC-POE-PART2
 OPSC POE PART 2
 # MoveMindSA
+**youtube video link:** https://youtube.com/shorts/7mypBo0hJWM?feature=share
 
 # MoveMindSA 🧠🏃‍♂️🌿
 

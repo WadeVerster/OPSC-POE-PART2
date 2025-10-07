@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="220dp"
+    android:layout_margin="6dp"
+    android:backgroundTint="@android:color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grilled Chicken"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMealType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch" />
+
+        <TextView
+            android:id="@+id/tvCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="250 kcal" />
+
+        <TextView
+            android:id="@+id/tvMacros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P: 30g | C: 10g | F: 5g"
+            android:textColor="#777" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
